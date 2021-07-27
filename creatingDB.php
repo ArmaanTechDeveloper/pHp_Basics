@@ -6,12 +6,12 @@ $password = "";
 
 $connection = mysqli_connect($servername , $username , $password); // fuction to establish a connection
 
-// Checking if connection is established successfully or not
+// Checking if connection is established successfully or  not
 if($connection){
     echo "Connection establish successfullly !! <br> ";
 }
 else{
-    echo "Failed to eastablish the connection <br>". mysqli_connect_error();
+    echo "Failed to eastablish the connection <br>". mysqli_connect_error(); // printing the connection error
 }
 
 //Creating a data base using php
