@@ -1,0 +1,45 @@
+#todo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.title > h2{
+    font-size: 30px;
+}
+.title > input{
+    width: 60%;
+    height: 25px;
+    outline: none;
+    font-size: 18px;
+}
+#entry{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description > h2{
+    font-size: 30px;
+}
+.description > textarea{
+    width: 60%;
+    height: 150px;
+    outline: none;
+    font-size: 18px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
