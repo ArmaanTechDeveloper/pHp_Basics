@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    font-family: 'Klee One', cursive;
+}
+html{
+    color: white;
+}
+.container{
+    width: 60%;
+    height: 100%;
+    background-color: #222121;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+input , textarea{
+    background-color: #141414;
+    color: white;
+    width: 50%;
+    border: 0px solid;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: 'Sarabun', sans-serif;
+}
+input , textarea:focus{
+    outline: none;
+}
+.inputHeight{
+    height: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    height: 100vh;
+}
+.heading{
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 208, 0);
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 0px;
+    transition: ease 0.5s;
+    font-family: 'Klee One', cursive;
+}
+.button:hover{
+    background-color: rgb(255, 225, 89);
+    transition: ease 0.5s;
+    
+}
