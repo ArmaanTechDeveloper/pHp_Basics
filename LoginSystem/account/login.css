@@ -1,0 +1,20 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.innerContainerCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 227, 227);
+    box-shadow:  23px 23px 46px #bebebe,
+                 -23px -23px 46px #ffffff;
+}
+.containerCenter{
+    width: 100vw;
+    height: 80vh;
+}
